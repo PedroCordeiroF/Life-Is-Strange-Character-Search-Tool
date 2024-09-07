@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Personagens Life Is Strange 1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Personagens de Life Is Strange</h1>
+      <!-- <p>
+        Ferramenta de busca das informações sobre os personagens do jogo Life Is
+        Strange 1 -->
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <input
+          type="text"
+          placeholder="Digite o nome do personagem"
+          name="main_search"
+          id="campo-pesquisa"
+        />
+        <span>
+          <button onclick="pesquisarPersonagem()">Buscar</button>
+          <button onclick="pesquisarTodosPersonagens()">Todos</button>
+        </span>
+      </section>
+      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>2024 - Personagens de Life Is Strange 1</p>
+        <p>Todos os direitos reservados</p>
+      </div>
+    </footer>
+    <script src="./dados.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
